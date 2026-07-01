@@ -11,7 +11,7 @@ import streamlit as st
 import joblib as jb
 import numpy as np
 import pandas as pd
-import scikit-learn 
+import sklearn 
 
 model = jb.load("titanic_model.pkl")
 
