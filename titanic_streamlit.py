@@ -40,7 +40,7 @@ if st.button("تنبا الان "):
   input_df = pd.DataFrame(input_dir)
   input_df = pd.get_dummies(input_df, columns = ["Sex" , "Embarked"])
 
-  model_col = model.feature_names_in
+  model_col = model.feature_names_in_
 
   for i in model_col :
     if i not in input_df.columns:
